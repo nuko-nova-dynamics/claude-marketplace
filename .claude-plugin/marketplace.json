@@ -1,0 +1,43 @@
+{
+  "$schema": "https://code.claude.com/marketplace.schema.json",
+  "name": "nuko-nova-tools",
+  "description": "Claude Code plugins built at Nuko Nova Dynamics.",
+  "owner": {
+    "name": "Nuko Nova Dynamics",
+    "email": "hello@nukonova.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-goal",
+      "source": {
+        "source": "github",
+        "repo": "nuko-nova-dynamics/claude-goal"
+      },
+      "description": "Codex-style autonomous goal loop. Type /goal-start \"objective\" and the agent self-drives turns under deterministic token budgets, with pause/resume, /goal-extend, /compact recovery, per-subagent token attribution, and persistence across claude restart. Complements Claude Code 2.1.139+'s built-in /goal.",
+      "author": {
+        "name": "Nuko Nova Dynamics",
+        "email": "hello@nukonova.com"
+      },
+      "homepage": "https://github.com/nuko-nova-dynamics/claude-goal",
+      "repository": "https://github.com/nuko-nova-dynamics/claude-goal",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "autonomous-agent",
+        "goal-tracking",
+        "mcp",
+        "codex-port",
+        "anthropic"
+      ],
+      "category": "agent-tooling",
+      "tags": [
+        "autonomous",
+        "goals",
+        "budget",
+        "mcp",
+        "subagent"
+      ]
+    }
+  ]
+}
