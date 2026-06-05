@@ -10,9 +10,12 @@
     {
       "name": "claude-goal",
       "source": {
-        "source": "github",
-        "repo": "nuko-nova-dynamics/claude-goal"
+        "source": "url",
+        "url": "https://github.com/nuko-nova-dynamics/claude-goal.git",
+        "ref": "v0.2.1",
+        "sha": "86d90340c2f90a9b55949ebf1e8932f6135b4ee6"
       },
+      "version": "0.2.1",
       "description": "Codex-style autonomous goal loop. Type /goal-start \"objective\" and the agent self-drives turns under deterministic token budgets, with pause/resume, /goal-extend, /compact recovery, per-subagent token attribution, and persistence across claude restart. Complements Claude Code 2.1.139+'s built-in /goal.",
       "author": {
         "name": "Nuko Nova Dynamics",
