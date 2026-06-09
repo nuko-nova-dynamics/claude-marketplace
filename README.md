@@ -18,7 +18,7 @@ Then install individual plugins from the catalog:
 
 ### claude-goal
 
-Codex-style autonomous goal loop. Type `/goal-start "objective"` and the agent self-drives turns under deterministic token budgets, with pause/resume, `/goal-extend`, `/compact` recovery, per-subagent token attribution, and persistence across `claude` restart. Complements Claude Code 2.1.139+'s built-in `/goal`.
+Codex-style autonomous goal loop. Type `/goal-start "objective"` and the agent self-drives turns under large smart budget profiles or practical-unlimited defaults, with pause/resume, `/goal-extend`, `/compact` recovery, per-subagent token attribution, and persistence across `claude` restart. Complements Claude Code 2.1.139+'s built-in `/goal`.
 
 ```bash
 /plugin install claude-goal@nuko-nova-tools
